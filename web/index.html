@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Free Wifi — Login</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="card">
+    <img src="./logo.png" alt="Campus WiFi Logo" class="logo" />
+    <h1>Free Wifi - UET Peshawar</h1>
+    <p class="subtitle">Please sign in to continue</p>
+
+    <form id="loginForm" autocomplete="off">
+      <label for="name">Full name</label>
+      <input id="name" name="name" placeholder="Enter your name" required/>
+
+      <label for="phoneNumber">Ph Number</label>
+      <input id="phoneNumber" name="phoneNumber" placeholder="0300 8000251" required/>
+
+      <label for="email">Email address (Optional)</label>
+      <input id="email" name="email" type="email" placeholder="user@email.com"  />
+
+      <label for="userCNIC">Enter your CNIC</label>
+      <input id="userCNIC" name="userCNIC" placeholder="14202-2155887-9" required/>
+
+      <div class="actions">
+        <button type="submit">Connect</button>
+      </div>
+    </form>
+
+    <div id="warning" class="warning hidden">
+      <p>This was a controlled demo of a social engineering captive portal. No personal data was stored.</pp>
+    </div>
+
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>

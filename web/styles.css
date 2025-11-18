@@ -1,0 +1,20 @@
+:root{--bg:#f2f4f8;--card:#fff;--accent:#1259c7}
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial,sans-serif}
+body{background:var(--bg);display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+.card{background:var(--card);width:360px;padding:28px;border-radius:12px;box-shadow:0 6px 24px rgba(2,6,23,0.08);text-align:center}
+h1{margin:6px 0 2px;font-size:20px}
+.subtitle{color:#556; font-size:13px;margin-bottom:18px}
+label{display:block;text-align:left;font-size:13px;margin-top:10px}
+input{width:100%;padding:10px;border-radius:8px;border:1px solid #e3e7ef;margin-top:6px}
+.actions{margin-top:16px}
+button{width:100%;padding:10px;border-radius:8px;border:0;background:var(--accent);color:#fff;font-weight:600}
+.warning{margin-top:16px;background:#fff3cd;padding:10px;border-radius:8px;border:1px solid #ffeeba;color:#856404}
+.hidden{display:none}
+.footnote{margin-top:12px;color:#9aa}
+.logo {
+  display: block;
+  margin: 0 auto 12px auto; /* center and spacing below */
+  width: 80px; /* adjust size as needed */
+  height: 80px;
+  object-fit: contain; /* ensures logo doesn't stretch */
+}
